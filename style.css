@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    text-shadow: 5px 6px 10px rgb(164, 162, 162); 
+    text-align: center;
+    margin: 2rem;
+}
+.container{
+    display:flex;
+    background-color:white;
+    max-width: 100rem;
+    color: black;
+    margin: 0px;
+    padding: 0px 0px 0px 1rem;
+    align-items: center;
+}
+.container p{
+    text-align:right;
+    font-size:2rem;
+}
+.image{
+    max-width:500%;
+}
+.bio{
+    margin:2rem;
+    padding: 0px 5rem;
+    /* max-width: 50rem;  */
+    align-items: center;
+}
+.bio p{
+    margin:2rem;
+    text-align:center;
+    font-size:2.5rem;
+    line-height :1.5;
+}
+.bioss{
+    box-shadow: 10px 10px 10px #575656;
+    padding: 0px;
+    line-height: 1.2;
+    align-items:center;
+    
+}
+.bio hr{
+    margin-top: 2rem;
+}
